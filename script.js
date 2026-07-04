@@ -106,4 +106,63 @@ function resetGame() {
 
     }
 
+let teaLevel = 1;
+let speedLevel = 1;
+let workers = 0;
+
+function upgradeTea(){
+
+    if(money >= 500){
+
+        money -= 500;
+        teaLevel++;
+
+        alert("Tea Price upgraded to Level " + teaLevel);
+
+        updateUI();
+
+    }else{
+
+        alert("Need ₹500");
+
+    }
+
+}
+
+function upgradeSpeed(){
+
+    if(money >= 1000){
+
+        money -= 1000;
+        speedLevel++;
+
+        alert("Speed upgraded to Level " + speedLevel);
+
+        updateUI();
+
+    }else{
+
+        alert("Need ₹1000");
+
+    }
+
+}
+
+function hireWorker(){
+
+    if(money >= 2000){
+
+        money -= 2000;
+        workers++;
+
+        alert("Worker hired!");
+
+        updateUI();
+
+    }else{
+
+        alert("Need ₹2000");
+
+    }
+
 
