@@ -138,5 +138,10 @@ document.getElementById("cash").innerHTML=money;
 
 </script>
 
+<div class="card">
+    <h2>Customers</h2>
+    <p id="customer">Waiting for customer...</p>
+</div>
+
 </body>
 </html>
