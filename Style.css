@@ -1,1 +1,115 @@
+/* ==========================
+   SAURABH GIRI BUSINESS TYCOON
+   style.css
+========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#5db9ff,#dff5ff);
+    color:#222;
+    text-align:center;
+    min-height:100vh;
+}
+
+/* Header */
+
+header{
+    background:#1b1b1b;
+    color:#FFD700;
+    padding:20px;
+    font-size:28px;
+    font-weight:bold;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+}
+
+/* Money */
+
+#money{
+    margin:20px auto;
+    width:90%;
+    max-width:400px;
+    background:white;
+    border-radius:16px;
+    padding:15px;
+    font-size:26px;
+    font-weight:bold;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+/* Business Name */
+
+#level{
+    font-size:24px;
+    font-weight:bold;
+    color:#0b7a2b;
+    margin-bottom:15px;
+}
+
+/* Business Image */
+
+#business img{
+    width:280px;
+    max-width:90%;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+/* Buttons */
+
+button{
+    width:260px;
+    max-width:90%;
+    margin:12px;
+    padding:16px;
+    border:none;
+    border-radius:14px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.25s;
+}
+
+button:first-of-type{
+    background:#27ae60;
+    color:white;
+}
+
+button:last-of-type{
+    background:#ff9800;
+    color:white;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+button:active{
+    transform:scale(.98);
+}
+
+/* Card */
+
+.card{
+    width:90%;
+    max-width:400px;
+    margin:20px auto;
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+    padding:15px;
+    color:#555;
+    font-size:14px;
+}
